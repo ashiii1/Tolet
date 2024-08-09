@@ -10,8 +10,7 @@ const House = ({ house }) => {
       <div className='mb-4 flex gap-x-2 text-sm'>
         <div className='bg-green-600 rounded-full text-white px-3 inline-block'>
           {house.type}
-    
-          </div>
+       
           <div className='text-base'>{house.surface}</div>
         </div>
       </div>

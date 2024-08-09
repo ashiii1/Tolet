@@ -5,16 +5,11 @@ import House from './House';
 import { Link } from 'react-router-dom';
 import { ImSpinner2 } from 'react-icons/im';
 
-co
-  const allHouses = [...houses, ...localHouses];
+const HouseList = () => {
+  const { houses, loading } = useContext(HouseContext);
+  const [localHouses, setLocalHouses] = useState([]);
 
-  if (allHouses.length < 1) {
-    return (
-      <div className="text-center text-3xl text-gray-400 mt-48">
-        Sorry, nothing was found.
-      </div>
-    );
-  }
+
 
   return (
     <section className="mb-20">

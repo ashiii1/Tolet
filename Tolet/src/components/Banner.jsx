@@ -64,8 +64,8 @@ import Search from './Search';
 const Banner = () => {
   return (
     <section className="h-full max-h-[540px] mb-8 xl:mb-24 bg-gray-100">
-      
-          </div>
+      <div className="flex flex-col lg:flex-row h-full relative">
+       
           <h1 className="text-4xl lg:text-[58px] font-semibold leading-none mb-6">
             <span className="text-green-700">Rent</span> Your Dream House With
             Us.
