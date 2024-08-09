@@ -64,20 +64,8 @@ import Search from './Search';
 const Banner = () => {
   return (
     <section className="h-full max-h-[540px] mb-8 xl:mb-24 bg-gray-100">
-      <div className="flex flex-col lg:flex-row h-full relative">
-        <div className="flex-1 max-w-[1540px]  lg:flex lg:justify-end lg:items-end w-full h-full">
-          <div className='pt-12 p'>
-          <img
-            src="https://media.istockphoto.com/id/538886278/photo/green-ecological-house-in-empty-field.jpg?s=612x612&w=0&k=20&c=7apbYzFqWyn7CrGKRP2_VBrvc7oYTUzko7IjJ8fVnUw="
-            alt=""
-            className="object-cover w-full h-full"
-          />
+      
           </div>
-        </div>
-        <div className="lg:ml-8 xl:ml-[135px] flex flex-col items-center lg:items-start text-center lg:text-left justify-center flex-1 px-4 lg:px-0 lg:pl-8 relative z-10">
-          <h1 className="text-4xl lg:text-[58px] font-semibold leading-none mb-2">
-            <span className="text-green-700">SK</span> ASHI
-          </h1>
           <h1 className="text-4xl lg:text-[58px] font-semibold leading-none mb-6">
             <span className="text-green-700">Rent</span> Your Dream House With
             Us.
