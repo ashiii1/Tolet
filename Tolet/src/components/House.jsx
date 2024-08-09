@@ -1,10 +1,13 @@
 
 // import icons
 import { BiBed, BiBath, BiArea } from 'react-icons/bi';
+import Header from './Header';
 
 const House = ({ house }) => {
   return (
-    <div className='bg-white shadow-1 p-5 rounded-lg rounded-tl-[390px] w-full max-w-[552px] mx-auto cursor-pointer hover:shadow-2xl transition'>
+    <>
+    <Header/>
+    <div className='bg-gray-200 shadow-1 p-5 rounded-lg  w-full max-w-[552px] mx-auto cursor-pointer hover:shadow-2xl transition'>
       <img className='mb-8' src={house.image} alt='' />
       <div className='mb-4 flex gap-x-2 text-sm'>
         <div className='bg-green-600 rounded-full text-white px-3 inline-block'>
@@ -39,6 +42,7 @@ const House = ({ house }) => {
         $ {house.price}
       </div>
     </div>
+    </>
   );
 };
 
